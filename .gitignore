@@ -1,0 +1,10 @@
+
+# Local files must not enter public history
+.harness/
+.env*
+!.env.example
+.claude/settings.local.json
+__pycache__/
+*.py[cod]
+.DS_Store
+private/
